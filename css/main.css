@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #d05c2e;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin: 0;
+  font-family: Merriweather, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav:hover {
+  background-color: #a63f38;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: .3em;
+}
+
+.left {
+  float: left;
+  max-width: 40px
+
+}
+
+.right {
+  float: right;
+  max-width: 40px
+
+}
+ul {
+
+
+}
+li{
+
+}

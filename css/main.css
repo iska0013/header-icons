@@ -13,6 +13,7 @@ body {
   padding-bottom: .5em;
   margin: 0;
   font-family: Merriweather, serif;
+  flex-wrap: wrap;
 }
 
 a {
@@ -28,23 +29,35 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin: .3em;
+  color: #fff;
 }
 
 .left {
   float: left;
-  max-width: 40px
-
+  max-width: 40px;
 }
 
 .right {
   float: right;
-  max-width: 40px
-
+  max-width: 40px;
 }
+
 ul {
-
-
+  background-color: #d05c2e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
 }
-li{
 
+li {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  border: 1px solid #a63f38;
+  width: 33.3333%;
+  margin: 0;
+  flex-wrap: wrap;
+  background-color: #d05c2e;
 }

@@ -8,12 +8,15 @@ html {
 }
 
 body {
-  background-color: #d05c2e;
   padding-top: .5em;
   padding-bottom: .5em;
   margin: 0;
   font-family: Merriweather, serif;
   flex-wrap: wrap;
+}
+
+header {
+  background-color: #d05c2e;
 }
 
 a {
